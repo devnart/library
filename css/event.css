@@ -1,0 +1,189 @@
+
+.header {
+    position: absolute;
+    background: rgba(0,0,0,0.4);
+}
+
+.hero {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.hero > div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+    background: rgb(129,37,108);
+background: linear-gradient(rgba(129,37,108,0.78), rgba(129,37,108,0.78)),url(../images/hero.jpg);
+background-size: cover;
+}
+.hero > div .content {
+    margin: 0 auto;
+}
+.hero .hero-title {
+    font-size: 55px;
+    font-weight: 700;
+    color: white;
+
+}
+.hero .hero-p {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    color: white;
+
+}
+.hero .content a:first-of-type {
+    width: 200px;
+    font-size: 17px;
+    padding: 20px 0px;
+    background-color: #fff;
+    color: #81256c;
+    display: inline-block;
+    line-height: 20px;
+    border-radius: 30px;
+    text-align: center;
+    margin:20px 10px 0 10px;
+}
+.hero .content a {
+    width: 200px;
+    font-size: 17px;
+    padding: 20px 0px;
+    border: 2px solid #fff;
+    color: #fff;
+    display: inline-block;
+    line-height: 20px;
+    border-radius: 30px;
+    text-align: center;
+    margin:20px 10px 0 10px;
+}
+
+.my-about {
+    text-align: center;
+    padding: 90px 0px;
+}
+.my-about h2 {
+    padding: 0px 0px 20px 0px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #b32137;
+    line-height: 50px;
+}
+.my-about .inner-my-about {
+    display: flex;
+}
+.my-about .inner-my-about > div {
+    margin: 20px
+}
+.my-about .inner-my-about h4 {
+    color: #b32137;
+    font-size: 24px;
+}
+.my-about .inner-my-about p {
+    width: ;
+}
+.my-about a {
+    width: 200px;
+    font-size: 17px;
+    padding: 20px 0px;
+    background-color: #81256c;
+    color: #fff;
+    display: inline-block;
+    line-height: 20px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+.my-about a:hover {
+    background-color: #000;
+}
+.my-date {
+    text-align: center;
+    padding: 70px 0;
+    color: white;
+    background: rgb(129,37,108);
+    background: linear-gradient(rgba(129,37,108,0.78), rgba(129,37,108,0.78)),url(../images/hero.jpg);
+    background-size: cover;
+
+}
+.my-date .content {
+    display: flex;
+    justify-content: space-between;
+}
+.my-date .content h4 {
+    display: inline;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+}
+.my-date .content i {
+    margin-right: 15px;
+    font-size: 36px;
+}
+.my-date a {
+    width: 200px;
+    font-size: 17px;
+    padding: 20px 0px;
+    background-color: #fff;
+    color: #81256c;
+    display: inline-block;
+    line-height: 20px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.nominated {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-left: 20px;
+}
+.nominated:not(:first-child) .container {
+    margin-top: 100px;
+
+
+}
+.nominated h2 {
+
+    padding: 0px 0px 20px 0px;
+    font-size: 34px;
+    line-height: 36px;
+    /* font-weight: bold; */
+    color: #b32137;
+}
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+
+}
+.my-col {
+    flex: 0 0 25%;
+}
+.my-col h4 {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #272727;
+}
+.my-col p {
+    opacity: 0.4;
+    font-style: italic;
+    line-height: 16px;
+}
+.my-col .cover-container {
+    margin-right: 5px;
+    margin-bottom: 15px;
+    overflow: hidden;
+
+}
+.my-col .cover-container img {
+    transition: 400ms;
+}
+.my-col .cover-container:hover img {
+    transform: scale(1.05);
+}
+

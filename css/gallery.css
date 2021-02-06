@@ -1,0 +1,55 @@
+.header {
+    position: relative;
+}
+.about-bg {
+    margin-top: 0;
+}
+.my-container {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-left: 20px;
+}
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+
+}
+.my-col {
+    flex: 0 0 25%;
+    text-align: center;
+}
+.my-col h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #272727;
+    padding-bottom: 0;
+}
+.my-col p {
+    font-style: italic;
+}
+.my-col .cover-container {
+    margin-right: 5px;
+    margin-bottom: 15px;
+    overflow: hidden;
+
+}
+.my-col .cover-container img {
+    transition: 400ms;
+}
+.my-col .cover-container:hover img {
+    transform: scale(1.05);
+}
+.my-container a {
+    width: 200px;
+    font-size: 17px;
+    padding: 20px 0px;
+    background-color: #81256c;
+    color: #fff;
+    display: inline-block;
+    line-height: 20px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
